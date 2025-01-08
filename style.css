@@ -1,0 +1,96 @@
+body {
+    font-family: "Roboto";
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FaF8;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header ul, 
+.hero p, 
+.info ul,
+.call p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    margin: 24px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info ul {
+    list-style-type: none;
+    color:grey;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoimage {
+    display: flex;
+}
+
+.infoimage img {
+    border: 5px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h4 {
+    align-self: flex-end;
+}
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    color: #e5e7eb;
+}
