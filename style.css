@@ -1,18 +1,21 @@
 body {
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
 }
 
 .header p {
     font-size: 24px;
     color: #F9FaF8;
     font-weight: bold;
+    margin-left: 15%;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
 }
 
 .header ul, 
@@ -28,8 +31,13 @@ body {
     list-style-type: none;
     display: flex;
     gap: 12px;
-    margin: 24px;
+    margin-right: 15%;
 }
+
+.hero img {
+    margin-right: 15%;
+}
+
 
 .hero h1 {
     font-size: 48px;
@@ -40,10 +48,24 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80 32;
+} 
+
+.herobox {
+    width: 600px;
+    margin-left: 15%;
+    margin-bottom: 64px;
+    flex-shrink: 0;
 }
 
 button {
     background-color: #3882F6;
+    border-radius: 8px;
+    height: 32px;
+    color: #e5e7eb;
+    width: 100px;
 }
 
 .info h2 {
@@ -55,11 +77,28 @@ button {
 .info ul {
     list-style-type: none;
     color:grey;
+    padding: 0px;
+}
+
+.infoimage p {
+    width: 150x;
+    font-size: 12px;
+}
+
+
+.left {
+    margin-left: 15%;
+}
+
+.right {
+    margin-right: 15%;
+    margin-bottom: 40px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .infoimage {
@@ -68,12 +107,14 @@ button {
 
 .infoimage img {
     border: 5px solid #3882F6;
+    border-radius: 8px;
 }
 
 .quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .quote h3 {
@@ -81,10 +122,17 @@ button {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    width: 850px;
+    align-self: center;
+    margin: 0px;
+    margin-top: 64px;
 }
 
 .quote h4 {
     align-self: flex-end;
+    margin-right: 15%;
+    margin-top: 0px;
+    margin-bottom: 64px;
 }
 
 .call {
@@ -93,4 +141,35 @@ button {
     justify-content: space-between;
     margin: 48px;
     color: #e5e7eb;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 8px;
+}
+
+.call h5,
+.call p {
+    margin-left: 20%;
+    width: 500px;
+    font-size: 18px;
+}
+
+.call h5 {
+    margin-bottom: 0px;
+    margin-top: 48px;
+}
+
+.call p {
+    margin-top: 4px;
+    margin-bottom: 48px;
+}
+
+.call button {
+    margin-right: 10%;
+    align-self: center;
+    border-color: #E5E7EB;
+    border-style:solid;
+}
+
+.hero button {
+    border-style: none;
 }
