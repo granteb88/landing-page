@@ -40,7 +40,7 @@ body {
 
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 900;
     color: #F9FaF8;
 }
@@ -54,7 +54,7 @@ body {
 } 
 
 .herobox {
-    width: 600px;
+    width: 500px;
     margin-left: 15%;
     margin-bottom: 64px;
     flex-shrink: 0;
@@ -87,11 +87,11 @@ button {
 
 
 .left {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .right {
-    margin-right: 15%;
+    margin-right: 10%;
     margin-bottom: 40px;
 }
 
@@ -103,6 +103,9 @@ button {
 
 .infoimage {
     display: flex;
+    align-self: center;
+    width: 1000px;
+    justify-content: space-between;
 }
 
 .infoimage img {
